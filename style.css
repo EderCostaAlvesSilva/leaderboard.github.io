@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+}
+
+header{
+    width: 65%;
+    text-align: center;
+}
+h1{
+    margin:10px ;
+}
+input{
+    border: 1px solid #E5C9C5;
+    padding: 10px;
+    font-size: 1em;
+    width: 15%;
+}
+button{
+    width: 15%;
+    background-color: #E5C9C5;
+    padding: 10px;
+    border: 1px solid #E5C9C5;
+    font-size: 1em;
+    color: white;
+}
+
+button:hover{
+    cursor: pointer;
+}
+main{
+    width: 60%;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-top: 10px;
+} 
+
+table{
+    width: 100%;
+    background: #E5C9C5;
+    margin: 5px;
+}
+
+tbody{
+    margin: 5px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+ 
+td{
+    font-size: 20px;
+    width: 25%;
+}
+ 
+span{
+    background-color: white;
+    width: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 30px;
+    margin:  5px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.span1 img{
+    width: 16px;
+}
+
+.span1:hover{
+    cursor: pointer;
+}
+
+.span2:hover{
+    background-color: rgb(114, 202, 114);
+    cursor: pointer;
+}
+
+.span3:hover{
+    cursor: pointer;
+    background-color: rgb(230, 170, 170);
+}
+
